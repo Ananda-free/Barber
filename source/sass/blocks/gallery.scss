@@ -1,0 +1,40 @@
+.gallery {
+  padding-bottom: 170px;
+
+  &__title {
+
+    padding-bottom: 120px;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 116.6%;
+    /* identical to box height, or 82px */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--color-b);
+
+    &-yellow {
+      color: var(--color-c);
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-gap: 37px;
+
+  }
+
+  &__btn {
+
+    margin: 0 auto;
+    margin-top: 70px;
+
+
+  }
+}
